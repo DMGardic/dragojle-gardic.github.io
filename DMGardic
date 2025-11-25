@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragojle Gardić – Tehnički prevodi i post-editing</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e2a38;
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 22px;
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1e2a38;
+        }
+
+        .services, .portfolio {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        footer {
+            background: #1e2a38;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .qr {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        img.qr-code {
+            width: 150px;
+            height: 150px;
+        }
+
+        a {
+            color: #1e2a38;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dragojle Gardić</h1>
+    <p>Tehnički prevodilac · Post-editing · QA & kontrola kvaliteta</p>
+</header>
+
+<section>
+    <h2>O meni</h2>
+    <p>Fachkraft für Lebensmitteltechnik (Nemačka) i IHK Verkaufsmanager sa višegodišnjim iskustvom 
+       u prehrambenoj industriji, automatizovanoj proizvodnji i kontrolama kvaliteta. 
+       Specijalizujem se za tehničko prevođenje stručnih tekstova, post-editing mašinskih prevoda 
+       i profesionalnu jezičku obradu u oblastima tehnologije hrane, industrijskih procesa, automatizacije 
+       i regulative.</p>
+</section>
+
+<section>
+    <h2>Usluge</h2>
+    <div class="services">
+        <div class="card">
+            <h3>✔ Tehnički prevodi (SR – DE – EN)</h3>
+            <p>Procesna tehnika, industrijska automatizacija, bioprocesi, QA dokumentacija,
+               tehničke specifikacije, SOP, HACCP, standardi i smernice.</p>
+        </div>
+
+        <div class="card">
+            <h3>✔ Post-editing mašinskih prevoda</h3>
+            <p>Profesionalna jezička i terminološka korekcija MT izlaza 
+               (Google, DeepL, QuillBot, Trados MT, Smartcat MT).</p>
+        </div>
+
+        <div class="card">
+            <h3>✔ Kontrola kvaliteta i stručna redaktura</h3>
+            <p>Provokacija terminologije, stilskog kontinuiteta, regulatorne tačnosti i tehničke doslednosti.</p>
+        </div>
+
+        <div class="card">
+            <h3>✔ Prevod industrijske dokumentacije</h3>
+            <p>Uputstva za mašine, validacioni protokoli, procesne šeme, specifikacije materijala,
+               izveštaji i laboratorijska dokumentacija.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+        <div class="card">
+            <h3>Primeri stručnih tekstova</h3>
+            <p>Napredni tehnički, IT i QA tekstovi – dostupni na zahtev ili putem LinkedIn-a.</p>
+        </div>
+
+        <div class="card">
+            <h3>Prevodilačke reference</h3>
+            <p>Dokumentacija iz oblasti prehrambene tehnologije, proizvodnih procesa, 
+               bioprocesa i industrijske opreme.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Kontakt</h2>
+    <p><strong>Email:</strong> dragojle.gardic@gmail.com (ili adresа sa LinkedIna)</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dragojle-gardic-95856265" target="_blank">
+       linkedin.com/in/dragojle-gardic-95856265</a></p>
+
+    <div class="qr">
+        <img src="qr-code.png" alt="QR kod LinkedIn profila" class="qr-code">
+    </div>
+
+    <p>Možete me kontaktirati direktno putem LinkedIna ili emailom.</p>
+</section>
+
+<footer>
+    © 2025 Dragojle Gardić – Tehnički prevodilac i post-editor
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
